@@ -50,6 +50,7 @@ const App = () => {
 				name={data.data.basics.name}
 				theme={theme}
 				toggleTheme={toggleTheme}
+				navItems={data.data.sections}
 			/>
 
 			<Hero
@@ -103,6 +104,7 @@ const App = () => {
 			<Footer
 				name={data.data.basics.name}
 				email={data.data.basics.email}
+				cv="/David_Casasola_Mora_Resume.pdf"
 				customFields={data.data.basics.customFields}
 			/>
 		</main>

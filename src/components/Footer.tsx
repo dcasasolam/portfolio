@@ -1,6 +1,10 @@
+import { Linkedin } from "lucide-react";
+import DownloadCV from "./DownloadCV";
+
 interface FooterProps {
 	name: string;
 	email: string;
+	cv: string
 	customFields: Array<{
 		id: string;
 		icon: string;
@@ -8,12 +12,13 @@ interface FooterProps {
 	}>;
 }
 
-const Footer = ({ name, email, customFields }: FooterProps) => {
+const Footer = ({ name, email, cv, customFields }: FooterProps) => {
 	const initials = name
 		.split(" ")
 		.map((n) => n[0])
 		.join("")
-		.toUpperCase();
+		.toUpperCase()
+		.slice(0, 2);
 
 	const getIconName = (icon: string) => {
 		if (icon.includes("linkedin")) return "LinkedIn";
@@ -39,11 +44,18 @@ const Footer = ({ name, email, customFields }: FooterProps) => {
 						</p>
 						<a
 							href={`mailto:${email}`}
-							className="text-foreground text-xl md:text-2xl hover:text-outline transition-all duration-300"
+							className="text-foreground text-xl md:text-2xl hover:text-outline transition-all duration-300 mb-4 block"
 						>
 							{email}
 						</a>
-					</div>
+					<a
+						href={cv}
+						download = {cv}
+						className="gradient-border inline-block px-8 py-3 rounded-full text-foreground text-sm tracking-wider uppercase hover:scale-105 transition-transform duration-300 animate-fade-in-up animation-delay-600"
+						title="Download my CV"
+					>
+						Download my CV
+					</a>					</div>
 
 					<div className="flex gap-8">
 						{customFields.map((field) => (
@@ -64,9 +76,12 @@ const Footer = ({ name, email, customFields }: FooterProps) => {
 					<span className="text-muted-foreground text-sm">
 						© {new Date().getFullYear()} All rights reserved
 					</span>
+					<div className="flex items-center gap-4 animate-fade-in">
+					<DownloadCV />
 					<span className="gradient-text text-sm font-display-bold tracking-widest">
 						{initials}
 					</span>
+					</div>
 				</div>
 			</div>
 		</footer>

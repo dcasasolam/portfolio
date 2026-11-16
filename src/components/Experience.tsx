@@ -92,7 +92,7 @@ const Experience = ({ items }: ExperienceProps) => {
 							{/* Timeline dot */}
 							<div className="absolute left-0 md:left-1/2 top-2 w-3 h-3 rounded-full bg-accent md:-translate-x-1/2" />
 
-							<div className="bg-card/50 p-6 rounded-lg border border-border hover:border-accent/50 transition-colors duration-300">
+							<div className="bg-card/50 p-6 rounded-lg border transition-colors duration-300 border-b-accent border-b-4">
 								<span className="text-accent text-sm font-mono">
 									{item.period}
 								</span>

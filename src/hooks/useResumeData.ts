@@ -4,7 +4,7 @@ import type { ResumeData } from "@/types/resume";
 // Get resume URL from environment variable or use default
 const RESUME_PUBLIC_URL =
 	import.meta.env.PUBLIC_RESUME_PUBLIC_URL ||
-	"https://rxresu.me/jfredyrom/senior-front-end-engineer-cv";
+	"https://rxresu.me/dcasasolam/frontendeng";
 
 // Get API key from environment variable
 const API_KEY = import.meta.env.PUBLIC_RXRESUME_API_KEY || "";
@@ -15,7 +15,7 @@ const CORS_PROXY = "https://corsproxy.io/?";
 // Fallback URL for static JSON data
 const FALLBACK_URL =
 	import.meta.env.PUBLIC_FALLBACK_URL ||
-	"https://raw.githubusercontent.com/jfredyromero/cv-metadata/refs/heads/main/cv-metadata.json";
+	"/portfolio_raw.json";
 
 // Extract API endpoint from public URL
 const getApiUrl = (publicUrl: string): string => {
@@ -23,7 +23,7 @@ const getApiUrl = (publicUrl: string): string => {
 	const match = publicUrl.match(/rxresu\.me\/([^\/]+)\/([^\/]+)/);
 	if (match) {
 		const [, username, slug] = match;
-		return `https://rxresu.me/api/openapi/resume/${username}/${slug}`;
+		return `https://rxresu.me/api/openapi/resumes/${username}/${slug}`;
 	}
 	return publicUrl;
 };

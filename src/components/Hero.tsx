@@ -90,7 +90,7 @@ const Hero = ({
 						href={`mailto:${email}`}
 						className="gradient-border inline-block mt-12 px-8 py-3 rounded-full text-foreground text-sm tracking-wider uppercase hover:scale-105 transition-transform duration-300 animate-fade-in-up animation-delay-600"
 					>
-						Let's Talk
+						Send me a message
 					</a>
 				</div>
 			</div>

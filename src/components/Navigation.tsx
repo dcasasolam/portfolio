@@ -1,14 +1,22 @@
 import { useState, type MouseEventHandler } from "react";
-import { Github } from "lucide-react";
+// import { Github } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
+import DownloadCV from "./DownloadCV";
 
+interface NavItem {
+	title: string;
+	columns: number;
+	hidden: boolean;
+	items: any[];
+}
 interface NavigationProps {
 	name: string;
 	theme: "dark" | "light";
 	toggleTheme: MouseEventHandler<HTMLButtonElement>;
+	navItems: NavItem[];
 }
 
-const navItems = [
+const navItemsObj = [
 	{ id: "experience", label: "Experience" },
 	{ id: "projects", label: "Projects" },
 	{ id: "skills", label: "Skills" },
@@ -19,7 +27,7 @@ const navItems = [
 	{ id: "contact", label: "Contact" },
 ];
 
-const Navigation = ({ name, theme, toggleTheme }: NavigationProps) => {
+const Navigation = ({ name, theme, toggleTheme, navItems }: NavigationProps) => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const scrollToSection = (id: string) => {
@@ -29,15 +37,20 @@ const Navigation = ({ name, theme, toggleTheme }: NavigationProps) => {
 		}
 		setIsMenuOpen(false);
 	};
-
+	const visibleItems = Object.entries(navItems).filter(
+		([key, value]) => !value.hidden
+	);
+	// console.log("Visible nav items:", visibleItems);
+	// const nav = navItems.filter((item) => !item.hidden);
 	const initials = name
 		.split(" ")
 		.map((n) => n[0])
 		.join("")
-		.toUpperCase();
+		.toUpperCase()
+		.slice(0, 2);
 
 	return (
-		<nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
+		<nav className="fixed top-0 left-0 right-0 z-50 bg-background/60 backdrop-blur-md border-b border-border/50">
 			<div className="flex items-center justify-between px-8 md:px-16 py-4">
 				{/* Logo */}
 				<div className="gradient-text font-display-bold text-xl tracking-widest animate-fade-in">
@@ -46,7 +59,8 @@ const Navigation = ({ name, theme, toggleTheme }: NavigationProps) => {
 
 				{/* Desktop/Tablet Navigation */}
 				<div className="hidden md:flex items-center gap-8 animate-fade-in">
-					{navItems.map((item) => (
+					{navItemsObj.filter((item) => visibleItems.some(([key]) => key === item.id)).map((item) => (
+						// (items[item] && 
 						<button
 							key={item.id}
 							onClick={() => scrollToSection(item.id)}
@@ -59,29 +73,13 @@ const Navigation = ({ name, theme, toggleTheme }: NavigationProps) => {
 
 				{/* Actions */}
 				<div className="hidden md:flex items-center gap-4 animate-fade-in">
-					<a
-						href="https://github.com/jfredyromero/portfolio"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="p-2 rounded-full bg-secondary/50 hover:bg-secondary transition-colors duration-300 group"
-						aria-label="View on GitHub"
-					>
-						<Github className="w-5 h-5 text-foreground group-hover:text-accent transition-colors duration-300" />
-					</a>
+					<DownloadCV />
 					<ThemeToggle theme={theme} toggleTheme={toggleTheme} />
 				</div>
 
 				{/* Mobile Actions */}
 				<div className="flex md:hidden items-center gap-3">
-					<a
-						href="https://github.com/jfredyromero/portfolio"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="p-2 rounded-full bg-secondary/50"
-						aria-label="View on GitHub"
-					>
-						<Github className="w-5 h-5 text-foreground" />
-					</a>
+					<DownloadCV />
 					<ThemeToggle theme={theme} toggleTheme={toggleTheme} />
 
 					{/* Mobile Hamburger */}
@@ -119,7 +117,7 @@ const Navigation = ({ name, theme, toggleTheme }: NavigationProps) => {
 				}`}
 			>
 				<div className="flex flex-col px-8 py-6 gap-4">
-					{navItems.map((item) => (
+					{navItemsObj.filter((item) => visibleItems.some(([key]) => key === item.id)).map((item) => (
 						<button
 							key={item.id}
 							onClick={() => scrollToSection(item.id)}
