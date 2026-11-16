@@ -3,7 +3,10 @@
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
+		"fetch-resume": "node scripts/fetch-resume.mjs",
+		"predev": "npm run fetch-resume",
 		"dev": "astro dev",
+		"prebuild": "npm run fetch-resume",
 		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro",

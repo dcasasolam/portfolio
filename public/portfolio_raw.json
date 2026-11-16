@@ -1,6 +1,5 @@
 {
-    "id": "019cb978-30ff-74ed-a3bd-fcd17a30bdaa",
-  "name": "frontendeng",
+  "id": "019cb978-30ff-74ed-a3bd-fcd17a30bdaa",
   "slug": "frontendeng",
   "tags": [
     "html5",
@@ -10,655 +9,797 @@
     "react"
   ],
   "isPublic": true,
+  "showDownloadButtons": true,
+  "allowWordDownload": false,
+  "showInSearchEngines": false,
+  "hideContactDetails": false,
+  "isPrimary": false,
   "isLocked": false,
   "data": {
-  "picture": {
-    "hidden": false,
-    "url": "",
-    "size": 80,
-    "rotation": 0,
-    "aspectRatio": 1,
-    "borderRadius": 0,
-    "borderColor": "rgba(0, 0, 0, 0.5)",
-    "borderWidth": 0,
-    "shadowColor": "rgba(0, 0, 0, 0.5)",
-    "shadowWidth": 0
-  },
-  "basics": {
-    "name": "David Casasola Mora",
-    "headline": "Front End Developer, Lead, Full Stack",
-    "email": "david@casasola.tech",
-    "phone": "(506)88175219",
-    "location": "Costa Rica",
-    "website": {
-      "url": "https://www.casasola.tech",
-      "label": ""
+    "picture": {
+      "hidden": false,
+      "fit": "cover",
+      "url": "",
+      "size": 80,
+      "rotation": 0,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "borderColor": "rgba(0, 0, 0, 0.5)",
+      "borderWidth": 0,
+      "shadowColor": "rgba(0, 0, 0, 0.5)",
+      "shadowWidth": 0
     },
-    "customFields": []
-  },
-  "summary": {
-    "title": "",
-    "columns": 1,
-    "hidden": false,
-    "content": "<p>Software developer professional specializing in front-end web solutions that integrate design and creative strategies. Experienced in multiple programming languages, frameworks, design patterns and methodologies&nbsp;for local and multinational enterprises serving the major advertisement agencies in the world with top clients requiring high-quality&nbsp;deliveries/results. I'm passionate about learning and applying the latest web technologies.</p>"
-  },
-  "sections": {
-    "profiles": {
+    "basics": {
+      "name": "David Casasola Mora",
+      "headline": "Front End Developer, Lead, Full Stack",
+      "email": "david@casasola.tech",
+      "phone": "(506)88175219",
+      "location": "Costa Rica",
+      "website": {
+        "url": "https://www.casasola.tech",
+        "label": ""
+      },
+      "customFields": []
+    },
+    "summary": {
       "title": "",
+      "icon": "",
       "columns": 1,
       "hidden": false,
-      "items": [
-        {
-          "id": "019cb97b-8d47-7044-b944-d5f58b4ce7a8",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": true
-          },
-          "icon": "acorn",
-          "network": "Linked In",
-          "username": "david-casasola",
-          "website": {
-            "url": "https://www.linkedin.com/in/david-casasola",
-            "label": ""
+      "showHeading": true,
+      "keepTogether": false,
+      "startOnNewPage": false,
+      "content": "<p>Front-End Engineer with 10+ years of experience building scalable, high-performance web applications using modern JavaScript frameworks like React, Next.js. Proven ability to deliver production-ready solutions, improve performance, and collaborate with cross-functional teams in remote environments. Strong focus on accessibility (WCAG), SEO, and user experience optimization. Experienced in leveraging AI-assisted development tools to improve productivity and code quality.&nbsp;</p>"
+    },
+    "sections": {
+      "profiles": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": false,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": [
+          {
+            "id": "019cb97b-8d47-7044-b944-d5f58b4ce7a8",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "network": "Linked In",
+            "username": "david-casasola",
+            "website": {
+              "url": "https://www.linkedin.com/in/david-casasola",
+              "label": "",
+              "inlineLink": true
+            }
           }
+        ]
+      },
+      "experience": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": false,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": [
+          {
+            "id": "019cb97c-7a9c-770f-b84b-35b53313cb7d",
+            "hidden": false,
+            "company": "Publicis Groupe",
+            "position": "Experience Technology Engineer",
+            "location": "",
+            "period": "12/2024 – 10/2025",
+            "dates": {
+              "start": "2024-12",
+              "end": "2025-10",
+              "present": false
+            },
+            "website": {
+              "url": "",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": "<p>HeartBeat&nbsp;</p><ul><li><p><span>Led end-to-end front-end development for pharmaceutical product websites using React and modern JavaScript frameworks&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Improved page performance and SEO scores through image optimization, semantic HTML, and Core Web Vitals enhancements&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Ensured WCAG accessibility compliance across all components&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Collaborated with designers, QA, and product managers to deliver high-quality releases on time&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Applied prompt engineering techniques to generate reusable components and optimize frontend performance&nbsp;</span>.</p></li></ul><p></p>",
+            "roles": []
+          },
+          {
+            "id": "019cb97e-fd31-7380-9b92-de446a344f84",
+            "hidden": false,
+            "company": "Publicis Groupe",
+            "position": "Experience Technology Engineer",
+            "location": "",
+            "period": "08/2023 – 11/2024",
+            "dates": {
+              "start": "2023-08",
+              "end": "2024-11",
+              "present": false
+            },
+            "website": {
+              "url": "",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": "<p>Pfizer</p><ul><li><p><span>Designed and developed Digital Sales Presentations (DSP) for Veeva Systems iPad platform using React and Astro-based custom boilerplate&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Built scalable, reusable UI components integrated with Salesforce to support enterprise workflows&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Managed end-to-end content lifecycle, including intake, review, approval, and publication processes&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Collaborated with cross-functional teams to ensure compliance, performance, and high-quality delivery of digital assets&nbsp;</span></p></li></ul><p></p>",
+            "roles": []
+          },
+          {
+            "id": "019cb980-4bb2-7378-ae21-47bc76edeec4",
+            "hidden": false,
+            "company": "Feed Your Funnel",
+            "position": "Senior Full Stack Developer",
+            "location": "",
+            "period": "02/2023 – 02/2024",
+            "dates": {
+              "start": "2023-02",
+              "end": "2024-02",
+              "present": false
+            },
+            "website": {
+              "url": "",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": "<p>Hyunday Mexico</p><ul><li><p><span>Co-led the migration of Hyundai Mexico’s digital platform from Adobe Experience Manager (AEM) to DotCMS&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Developed and implemented scalable front-end solutions to preserve critical features and introduce new site capabilities&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Collaborated with cross-functional teams (design, backend, QA, product) to ensure seamless transition and high-quality delivery&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Improved platform scalability, performance, and maintainability through modern architecture and best practices&nbsp;</span></p></li></ul><p></p>",
+            "roles": []
+          },
+          {
+            "id": "019cb983-1af5-7108-b843-5ea534016a55",
+            "hidden": false,
+            "company": "Publicis Groupe",
+            "position": "Front End Engineer",
+            "location": "",
+            "period": "03/2021 – 06/2023",
+            "dates": {
+              "start": "2021-03",
+              "end": "2023-06",
+              "present": false
+            },
+            "website": {
+              "url": "",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": "<p>Digitas Health</p><ul><li><p><span>Developed and maintained front-end components and websites using Sitecore CMS and Razor within .NET environments&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Delivered scalable, reusable UI solutions for pharmaceutical industry platforms&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Enhanced site performance, usability, and content management workflows&nbsp;</span></p></li></ul><ul><li><p style=\"text-align: left;\"><span>Partnered with cross-functional teams to deliver compliant, high-quality digital experiences&nbsp;</span></p></li></ul><p></p>",
+            "roles": []
+          },
+          {
+            "id": "019cb985-b28b-727b-b982-211cccc2591d",
+            "hidden": false,
+            "company": "Publicis Groupe",
+            "position": "Senior Creative Engineer",
+            "location": "",
+            "period": "02/2012 – 03/2021",
+            "dates": {
+              "start": "2012-02",
+              "end": "2021-03",
+              "present": false
+            },
+            "website": {
+              "url": "",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": "<p>Prodigious - PGD</p><ul><li><p>Developer in charge of designing and creating solutions using rich&nbsp;media technologies/platforms such as Flash/AS3 or HTML5 banners,&nbsp;Google Ads, Flash taking and all related trafficking tools.&nbsp;</p></li></ul><p></p>",
+            "roles": []
+          },
+          {
+            "id": "019cb987-1bb5-7396-9a86-488962a473cf",
+            "hidden": false,
+            "company": "Avventa(Accenture)",
+            "position": "Senior Developer",
+            "location": "",
+            "period": "03/2021 – 02/2012",
+            "dates": {
+              "start": "2021-03",
+              "end": "2012-02",
+              "present": false
+            },
+            "website": {
+              "url": "",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": "<ul><li><p>Adobe Flash/AS3 developer of rich application and websites for&nbsp;multiple clients in the automotive industry such as GMC, Chevrolet,&nbsp;Mercedes Benz. Also developing rich media advertisements (banners),&nbsp;for health and care consumer products, hostelry, retailer chains and&nbsp;many other industries.</p></li></ul><p></p>",
+            "roles": []
+          }
+        ]
+      },
+      "education": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": false,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": [
+          {
+            "id": "019cb98c-edaf-716c-b4a9-cda6d8b4c4f2",
+            "hidden": false,
+            "school": "UNED",
+            "degree": "Information Technology Engineering",
+            "area": "",
+            "grade": "",
+            "location": "",
+            "period": "",
+            "dates": {
+              "start": null,
+              "end": null,
+              "present": false
+            },
+            "website": {
+              "url": "",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": "<p>In progress</p>"
+          },
+          {
+            "id": "019cb98e-7fd7-70c7-a184-94579f48da89",
+            "hidden": false,
+            "school": "Costa Rica Institute of Technology",
+            "degree": "Computer Science Engineering",
+            "area": "",
+            "grade": "",
+            "location": "",
+            "period": "",
+            "dates": {
+              "start": null,
+              "end": null,
+              "present": false
+            },
+            "website": {
+              "url": "",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": "<p>90% credits complete</p>"
+          }
+        ]
+      },
+      "projects": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": false,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": [
+          {
+            "id": "019cb988-3704-729f-bdfd-36af044e8516",
+            "hidden": false,
+            "name": "Symbravo",
+            "period": "",
+            "dates": {
+              "start": null,
+              "end": null,
+              "present": false
+            },
+            "website": {
+              "url": "https://www.symbravo.com",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": ""
+          },
+          {
+            "id": "019cb988-cba7-7328-9128-2830b7fccd82",
+            "hidden": false,
+            "name": "Symbravo HCP",
+            "period": "",
+            "dates": {
+              "start": null,
+              "end": null,
+              "present": false
+            },
+            "website": {
+              "url": "https://www.symbravohcp.com",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": ""
+          },
+          {
+            "id": "019cb989-29f0-76fb-8a5b-4df357663675",
+            "hidden": false,
+            "name": "Hyundai Mexico",
+            "period": "",
+            "dates": {
+              "start": null,
+              "end": null,
+              "present": false
+            },
+            "website": {
+              "url": "https://www.hyundai.com.mx",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": ""
+          },
+          {
+            "id": "019cb989-697d-747f-959b-2b94cfc3c2d6",
+            "hidden": false,
+            "name": "Help stop the virus",
+            "period": "",
+            "dates": {
+              "start": null,
+              "end": null,
+              "present": false
+            },
+            "website": {
+              "url": "https://www.helpstopthevirus.com",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": ""
+          },
+          {
+            "id": "019cb98a-5275-761e-8005-71cdca68bb95",
+            "hidden": false,
+            "name": "Help stop the virus PRO",
+            "period": "",
+            "dates": {
+              "start": null,
+              "end": null,
+              "present": false
+            },
+            "website": {
+              "url": "https://www.helpstoptheviruspro.com",
+              "label": "",
+              "inlineLink": false
+            },
+            "description": ""
+          }
+        ]
+      },
+      "skills": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": false,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": [
+          {
+            "id": "019cb990-052c-7316-8ee1-47c314408111",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "HTML5",
+            "proficiency": "Advanced",
+            "level": 5,
+            "keywords": []
+          },
+          {
+            "id": "019cb991-397c-7718-a035-6cdd0bb7856f",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "CSS3",
+            "proficiency": "Advanced",
+            "level": 5,
+            "keywords": [
+              "css",
+              "sass",
+              "keyframes",
+              "bootstrap"
+            ]
+          },
+          {
+            "id": "019cb992-4dea-7588-9c32-8c2fa755d320",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "Javascript",
+            "proficiency": "Advanced",
+            "level": 5,
+            "keywords": []
+          },
+          {
+            "id": "019cb99c-449a-73aa-b7a6-5b7948c8c505",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "SEO",
+            "proficiency": "Advanced",
+            "level": 3,
+            "keywords": []
+          },
+          {
+            "id": "019cb992-f66b-709c-be53-52be22adc83d",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "WCAG",
+            "proficiency": "Advanced",
+            "level": 4,
+            "keywords": []
+          },
+          {
+            "id": "019cb993-7cfe-76ad-a3fb-120899d6aa0c",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "Core web vitals",
+            "proficiency": "Intermediate",
+            "level": 4,
+            "keywords": []
+          },
+          {
+            "id": "019cb994-c399-7302-986c-4b55c71fd7de",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "React",
+            "proficiency": "Intermediate",
+            "level": 3,
+            "keywords": []
+          },
+          {
+            "id": "019cb995-0ef7-704c-a84c-e0908bf42e65",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "NextJS",
+            "proficiency": "Intermediate",
+            "level": 2,
+            "keywords": []
+          },
+          {
+            "id": "019cb996-6b10-7778-af41-f7f8c5eb0421",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "NodeJS",
+            "proficiency": "Intermediate",
+            "level": 3,
+            "keywords": []
+          },
+          {
+            "id": "019cb998-a60a-75ce-9d84-b6fe4ed69b44",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "Redux",
+            "proficiency": "Intermediate",
+            "level": 2,
+            "keywords": []
+          },
+          {
+            "id": "019cb99b-b602-74cf-882d-8f1444103597",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "BackStop - Playwright",
+            "proficiency": "Intermediate",
+            "level": 2,
+            "keywords": []
+          },
+          {
+            "id": "019cb99d-8ba9-75fd-9527-9d0a22a4cecf",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "Eleventy",
+            "proficiency": "",
+            "level": 4,
+            "keywords": []
+          },
+          {
+            "id": "019cb99d-bea3-76a9-befd-4a5be6ec1023",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "CMS",
+            "proficiency": "",
+            "level": 3,
+            "keywords": [
+              "AEM",
+              "Sitecore",
+              "DotCMS"
+            ]
+          },
+          {
+            "id": "019cb99e-3a38-72c1-9dae-d88eea50a9da",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "Jira/Confluence",
+            "proficiency": "",
+            "level": 0,
+            "keywords": []
+          },
+          {
+            "id": "019cb99e-6e3c-73fd-a3c6-66c548bd87cb",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "Git",
+            "proficiency": "",
+            "level": 4,
+            "keywords": [
+              "Github",
+              "Gitlab"
+            ]
+          },
+          {
+            "id": "019cb99e-f593-73ef-b167-dcdc7fd8aa29",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "Design",
+            "proficiency": "",
+            "level": 5,
+            "keywords": [
+              "Figma",
+              "Photoshop"
+            ]
+          },
+          {
+            "id": "019cb99f-55f2-70ba-aebd-b5ae9ada9185",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "PM methodologies",
+            "proficiency": "",
+            "level": 5,
+            "keywords": [
+              "Scrum",
+              "Agile"
+            ]
+          },
+          {
+            "id": "019cb99f-f2e9-71ee-9225-a61e96ec4bd0",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "Soft Skills",
+            "proficiency": "",
+            "level": 5,
+            "keywords": [
+              "Team player",
+              "Team leader",
+              "Collaborative",
+              "Creative",
+              "Proactive"
+            ]
+          },
+          {
+            "id": "019e2719-bd78-758e-b556-ce6a6147fb81",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "AI Tool",
+            "proficiency": "",
+            "level": 3,
+            "keywords": [
+              "Claude",
+              "Cursor",
+              "VS Code + Agent",
+              "Copilot",
+              "Windsurf"
+            ]
+          },
+          {
+            "id": "019e271a-d31f-7246-82e5-5733426b8d36",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "Modern Development Practices",
+            "proficiency": "",
+            "level": 4,
+            "keywords": [
+              "Prompt engineering",
+              "AI-assisted development"
+            ]
+          },
+          {
+            "id": "019e271c-503b-707a-ad40-b4014e39acdc",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "Others",
+            "proficiency": "",
+            "level": 4,
+            "keywords": [
+              "CI/CD",
+              "RestAPI"
+            ]
+          },
+          {
+            "id": "01a0118d-459d-7694-8d1a-f8bad01b53c8",
+            "hidden": false,
+            "icon": "acorn",
+            "iconColor": "",
+            "name": "Python",
+            "proficiency": "Intermediate",
+            "level": 2,
+            "keywords": [
+              "python"
+            ]
+          }
+        ],
+        "keywordLayout": "inline",
+        "layout": "default"
+      },
+      "languages": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": false,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": [
+          {
+            "id": "019cb9a1-53e5-71ae-8b9e-aa8e1bc23e7d",
+            "hidden": false,
+            "language": "English",
+            "fluency": "Advanced",
+            "level": 4
+          },
+          {
+            "id": "019cba0a-ef76-765a-9a22-ab6006cc017f",
+            "hidden": false,
+            "language": "Spanish",
+            "fluency": "Native",
+            "level": 5
+          }
+        ]
+      },
+      "interests": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": true,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": []
+      },
+      "awards": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": true,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": []
+      },
+      "certifications": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": true,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": []
+      },
+      "publications": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": true,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": []
+      },
+      "volunteer": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": true,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": []
+      },
+      "references": {
+        "title": "",
+        "icon": "",
+        "columns": 1,
+        "hidden": true,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "items": []
+      }
+    },
+    "customSections": [
+      {
+        "title": "linkedin",
+        "icon": "",
+        "columns": 1,
+        "hidden": false,
+        "showHeading": true,
+        "keepTogether": false,
+        "startOnNewPage": false,
+        "id": "019cd990-ec0f-76eb-993f-04f51436d6c6",
+        "type": "summary",
+        "items": []
+      }
+    ],
+    "metadata": {
+      "template": "chikorita",
+      "layout": {
+        "sidebarWidth": 35,
+        "pages": [
+          {
+            "fullWidth": false,
+            "main": [
+              "summary",
+              "education",
+              "experience",
+              "projects",
+              "volunteer",
+              "references",
+              "certifications",
+              "awards",
+              "languages",
+              "interests",
+              "publications",
+              "019cd990-ec0f-76eb-993f-04f51436d6c6"
+            ],
+            "sidebar": [
+              "profiles",
+              "skills"
+            ]
+          }
+        ]
+      },
+      "page": {
+        "gapX": 4,
+        "gapY": 6,
+        "marginX": 14,
+        "marginY": 12,
+        "format": "free-form",
+        "locale": "en-US",
+        "dateFormat": "numeric",
+        "hideLinkUnderline": false,
+        "hideIcons": false,
+        "hideSectionIcons": true
+      },
+      "design": {
+        "level": {
+          "icon": "star",
+          "type": "circle"
+        },
+        "colors": {
+          "primary": "rgb(35, 220, 160)",
+          "text": "rgba(0, 0, 0, 1)",
+          "background": "rgba(255, 255, 255, 1)"
         }
-      ]
-    },
-    "experience": {
-      "title": "",
-      "columns": 1,
-      "hidden": false,
-      "items": [
-        {
-          "id": "019cb97c-7a9c-770f-b84b-35b53313cb7d",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "company": "Publicis Groupe",
-          "position": "Experience Technology Engineer",
-          "location": "",
-          "period": "12/2024-10/2025",
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": "<p>HeartBeat&nbsp;</p><ul><li><p>Front-End main developer for website(s) of a new product for an&nbsp;important pharmaceutical brand. I oversaw end to end development,&nbsp;keeping close attention to semantic and accessibility, also oversaw SEO&nbsp;configuration, image optimizing, staging deployments, working close to&nbsp;PM with estimations, and many other tasks involved in the&nbsp;development cycle.&nbsp;</p></li><li><p>I collaborated closely with cross-functional teams like designers, QA,&nbsp;and PM to streamline processes, resulting in improved project delivery&nbsp;timelines and client satisfaction.</p></li></ul><p></p>",
-          "roles": []
+      },
+      "typography": {
+        "body": {
+          "fontFamily": "IBM Plex Serif",
+          "fontWeights": [
+            "400",
+            "500"
+          ],
+          "fontSize": 10,
+          "lineHeight": 1.5
         },
-        {
-          "id": "019cb97e-fd31-7380-9b92-de446a344f84",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "company": "Publicis Groupe",
-          "position": "Experience Technology Engineer",
-          "location": "",
-          "period": "08/2023 - 11/2024",
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": "<p>Pfizer</p><ul><li><p>Senior developer for the design and implementation of Digital Sales&nbsp;Presentations (DSP) for the Veeva Systems iPad environment,&nbsp;leveraging a custom React boilerplate built with the Astro framework&nbsp;and fully integrated with Salesforce. Additionally, managed end-to-end&nbsp;document workflows, including content intake, review, approval, and&nbsp;publication processes.</p></li></ul><p></p>",
-          "roles": []
-        },
-        {
-          "id": "019cb980-4bb2-7378-ae21-47bc76edeec4",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "company": "Feed Your Funnel",
-          "position": "Senior Full Stack Developer",
-          "location": "",
-          "period": "02/2023 - 02/2024",
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": "<p>Hyunday Mexico</p><ul><li><p>Co-leading and implementing the complete migration of Hyundai&nbsp;Mexico's digital platform from Adobe Experience Manager (AEM) to&nbsp;DotCMS, collaborating with cross-functional teams to preserve critical&nbsp;features, introduce new site capabilities, and optimize system&nbsp;scalability and maintainability.&nbsp;</p></li></ul><p></p>",
-          "roles": []
-        },
-        {
-          "id": "019cb983-1af5-7108-b843-5ea534016a55",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "company": "Publicis Groupe",
-          "position": "Front End Engineer",
-          "location": "",
-          "period": "03/2021 - 06/2023",
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": "<p>Digitas Health</p><ul><li><p>In charge of developing, maintaining enhance and improve&nbsp;components, sites and content based on .Net techs such as Sitecore&nbsp;and Razor websites on front-end side for pharma industry brands.</p></li></ul><p></p>",
-          "roles": []
-        },
-        {
-          "id": "019cb985-b28b-727b-b982-211cccc2591d",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "company": "Publicis Groupe",
-          "position": "Senior Creative Engineer",
-          "location": "",
-          "period": "02/2012 - 03/2021",
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": "<p>Prodigious - PGD</p><ul><li><p>Developer in charge of designing and creating solutions using rich&nbsp;media technologies/platforms such as Flash/AS3 or HTML5 banners,&nbsp;Google Ads, Flash taking and all related trafficking tools.&nbsp;</p></li></ul><p></p>",
-          "roles": []
-        },
-        {
-          "id": "019cb987-1bb5-7396-9a86-488962a473cf",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "company": "Avventa(Accenture)",
-          "position": "Senior Developer",
-          "location": "",
-          "period": "03/2021 - 02/2012",
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": "<ul><li><p>Adobe Flash/AS3 developer of rich application and websites for&nbsp;multiple clients in the automotive industry such as GMC, Chevrolet,&nbsp;Mercedes Benz. Also developing rich media advertisements (banners),&nbsp;for health and care consumer products, hostelry, retailer chains and&nbsp;many other industries.</p></li></ul><p></p>",
-          "roles": []
+        "heading": {
+          "fontFamily": "IBM Plex Serif",
+          "fontWeights": [
+            "600"
+          ],
+          "fontSize": 14,
+          "lineHeight": 1.5
         }
-      ]
-    },
-    "education": {
-      "title": "",
-      "columns": 1,
-      "hidden": false,
-      "items": [
-        {
-          "id": "019cb98c-edaf-716c-b4a9-cda6d8b4c4f2",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "school": "UNED",
-          "degree": "Information Technology Engineering",
-          "area": "",
-          "grade": "",
-          "location": "",
-          "period": "",
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": "<p>In progress</p>"
-        },
-        {
-          "id": "019cb98e-7fd7-70c7-a184-94579f48da89",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "school": "Costa Rica Institute of Technology",
-          "degree": "Computer Science Engineering",
-          "area": "",
-          "grade": "",
-          "location": "",
-          "period": "",
-          "website": {
-            "url": "",
-            "label": ""
-          },
-          "description": "<p>90% credits complete</p>"
-        }
-      ]
-    },
-    "projects": {
-      "title": "",
-      "columns": 1,
-      "hidden": false,
-      "items": [
-        {
-          "id": "019cb988-3704-729f-bdfd-36af044e8516",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "name": "Symbravo",
-          "period": "",
-          "website": {
-            "url": "https://www.symbravo.com",
-            "label": ""
-          },
-          "description": ""
-        },
-        {
-          "id": "019cb988-cba7-7328-9128-2830b7fccd82",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "name": "Symbravo HCP",
-          "period": "",
-          "website": {
-            "url": "https://www.symbravohcp.com",
-            "label": ""
-          },
-          "description": ""
-        },
-        {
-          "id": "019cb989-29f0-76fb-8a5b-4df357663675",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "name": "Hyundai Mexico",
-          "period": "",
-          "website": {
-            "url": "https://www.hyundai.com.mx",
-            "label": ""
-          },
-          "description": ""
-        },
-        {
-          "id": "019cb989-697d-747f-959b-2b94cfc3c2d6",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "name": "Help stop the virus",
-          "period": "",
-          "website": {
-            "url": "https://www.helpstopthevirus.com",
-            "label": ""
-          },
-          "description": ""
-        },
-        {
-          "id": "019cb98a-5275-761e-8005-71cdca68bb95",
-          "hidden": false,
-          "options": {
-            "showLinkInTitle": false
-          },
-          "name": "Help stop the virus PRO",
-          "period": "",
-          "website": {
-            "url": "https://www.helpstoptheviruspro.com",
-            "label": ""
-          },
-          "description": ""
-        }
-      ]
-    },
-    "skills": {
-      "title": "",
-      "columns": 1,
-      "hidden": false,
-      "items": [
-        {
-          "id": "019cb990-052c-7316-8ee1-47c314408111",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "HTML5",
-          "proficiency": "Advanced",
-          "level": 5,
-          "keywords": []
-        },
-        {
-          "id": "019cb991-397c-7718-a035-6cdd0bb7856f",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "CSS3",
-          "proficiency": "Advanced",
-          "level": 5,
-          "keywords": [
-            "css",
-            "sass",
-            "keyframes",
-            "bootstrap"
-          ]
-        },
-        {
-          "id": "019cb992-4dea-7588-9c32-8c2fa755d320",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "Javascript",
-          "proficiency": "Advanced",
-          "level": 5,
-          "keywords": []
-        },
-        {
-          "id": "019cb99c-449a-73aa-b7a6-5b7948c8c505",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "SEO",
-          "proficiency": "Advanced",
-          "level": 3,
-          "keywords": []
-        },
-        {
-          "id": "019cb992-f66b-709c-be53-52be22adc83d",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "WCAG",
-          "proficiency": "Advanced",
-          "level": 4,
-          "keywords": []
-        },
-        {
-          "id": "019cb993-7cfe-76ad-a3fb-120899d6aa0c",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "Core web vitals",
-          "proficiency": "Intermediate",
-          "level": 4,
-          "keywords": []
-        },
-        {
-          "id": "019cb994-c399-7302-986c-4b55c71fd7de",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "React",
-          "proficiency": "Intermediate",
-          "level": 3,
-          "keywords": []
-        },
-        {
-          "id": "019cb995-0ef7-704c-a84c-e0908bf42e65",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "NextJS",
-          "proficiency": "Intermediate",
-          "level": 2,
-          "keywords": []
-        },
-        {
-          "id": "019cb996-6b10-7778-af41-f7f8c5eb0421",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "NodeJS",
-          "proficiency": "Intermediate",
-          "level": 3,
-          "keywords": []
-        },
-        {
-          "id": "019cb998-a60a-75ce-9d84-b6fe4ed69b44",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "Redux",
-          "proficiency": "Intermediate",
-          "level": 2,
-          "keywords": []
-        },
-        {
-          "id": "019cb99b-b602-74cf-882d-8f1444103597",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "BackStop - Playwright",
-          "proficiency": "Intermediate",
-          "level": 2,
-          "keywords": []
-        },
-        {
-          "id": "019cb99d-8ba9-75fd-9527-9d0a22a4cecf",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "Eleventy",
-          "proficiency": "",
-          "level": 4,
-          "keywords": []
-        },
-        {
-          "id": "019cb99d-bea3-76a9-befd-4a5be6ec1023",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "AEM",
-          "proficiency": "",
-          "level": 3,
-          "keywords": []
-        },
-        {
-          "id": "019cb99d-e788-74fe-a82d-5bd8b3a2b6b9",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "Sitecore",
-          "proficiency": "",
-          "level": 3,
-          "keywords": []
-        },
-        {
-          "id": "019cb99e-0527-74b7-8baa-45ae802f5e30",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "DotCMS",
-          "proficiency": "",
-          "level": 4,
-          "keywords": []
-        },
-        {
-          "id": "019cb99e-3a38-72c1-9dae-d88eea50a9da",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "Jira/Confluence",
-          "proficiency": "",
-          "level": 0,
-          "keywords": []
-        },
-        {
-          "id": "019cb99e-6e3c-73fd-a3c6-66c548bd87cb",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "Git",
-          "proficiency": "",
-          "level": 4,
-          "keywords": [
-            "Github",
-            "Gitlab"
-          ]
-        },
-        {
-          "id": "019cb99e-f593-73ef-b167-dcdc7fd8aa29",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "Design",
-          "proficiency": "",
-          "level": 5,
-          "keywords": [
-            "Figma"
-          ]
-        },
-        {
-          "id": "019cb99f-55f2-70ba-aebd-b5ae9ada9185",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "PM methodologies",
-          "proficiency": "",
-          "level": 5,
-          "keywords": [
-            "Scrum",
-            "Agile"
-          ]
-        },
-        {
-          "id": "019cb99f-f2e9-71ee-9225-a61e96ec4bd0",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "Team player",
-          "proficiency": "",
-          "level": 5,
-          "keywords": []
-        },
-        {
-          "id": "019cb9a0-2134-7579-ba42-28eefa25bcce",
-          "hidden": false,
-          "icon": "arrow-up-right",
-          "name": "Collaborative",
-          "proficiency": "",
-          "level": 5,
-          "keywords": []
-        },
-        {
-          "id": "019cb9a4-c284-756a-a0f5-d404c52a2302",
-          "hidden": false,
-          "icon": "arrow-up-right",
-          "name": "Creative",
-          "proficiency": "",
-          "level": 5,
-          "keywords": []
-        },
-        {
-          "id": "019cb9a4-fb1a-742b-8b57-7507df1a0403",
-          "hidden": false,
-          "icon": "acorn",
-          "name": "Proactive",
-          "proficiency": "",
-          "level": 5,
-          "keywords": []
-        },
-        {
-          "id": "019cb9a5-3253-759b-ba81-9a0e7657cf8c",
-          "hidden": false,
-          "icon": "arrow-up-right",
-          "name": "Team leader",
-          "proficiency": "",
-          "level": 5,
-          "keywords": []
-        }
-      ]
-    },
-    "languages": {
-      "title": "",
-      "columns": 1,
-      "hidden": false,
-      "items": [
-        {
-          "id": "019cb9a1-53e5-71ae-8b9e-aa8e1bc23e7d",
-          "hidden": false,
-          "language": "English",
-          "fluency": "Advanced",
-          "level": 4
-        },
-        {
-          "id": "019cba0a-ef76-765a-9a22-ab6006cc017f",
-          "hidden": false,
-          "language": "Spanish",
-          "fluency": "Native",
-          "level": 5
-        }
-      ]
-    },
-    "interests": {
-      "title": "",
-      "columns": 1,
-      "hidden": true,
-      "items": []
-    },
-    "awards": {
-      "title": "",
-      "columns": 1,
-      "hidden": true,
-      "items": []
-    },
-    "certifications": {
-      "title": "",
-      "columns": 1,
-      "hidden": true,
-      "items": []
-    },
-    "publications": {
-      "title": "",
-      "columns": 1,
-      "hidden": true,
-      "items": []
-    },
-    "volunteer": {
-      "title": "",
-      "columns": 1,
-      "hidden": true,
-      "items": []
-    },
-    "references": {
-      "title": "",
-      "columns": 1,
-      "hidden": true,
-      "items": []
+      },
+      "notes": "",
+      "styleRules": []
     }
   },
-  "customSections": [],
-  "metadata": {
-    "template": "chikorita",
-    "layout": {
-      "sidebarWidth": 35,
-      "pages": [
-        {
-          "fullWidth": false,
-          "main": [
-            "summary",
-            "education",
-            "experience",
-            "projects",
-            "volunteer",
-            "references",
-            "certifications",
-            "awards",
-            "languages",
-            "interests",
-            "publications"
-          ],
-          "sidebar": [
-            "profiles",
-            "skills"
-          ]
-        }
-      ]
-    },
-    "css": {
-      "enabled": false,
-      "value": ""
-    },
-    "page": {
-      "gapX": 4,
-      "gapY": 6,
-      "marginX": 14,
-      "marginY": 12,
-      "format": "free-form",
-      "locale": "en-US",
-      "hideIcons": false
-    },
-    "design": {
-      "level": {
-        "icon": "star",
-        "type": "circle"
-      },
-      "colors": {
-        "primary": "rgb(35, 220, 160)",
-        "text": "rgba(0, 0, 0, 1)",
-        "background": "rgba(255, 255, 255, 1)"
-      }
-    },
-    "typography": {
-      "body": {
-        "fontFamily": "IBM Plex Serif",
-        "fontWeights": [
-          "400",
-          "500"
-        ],
-        "fontSize": 10,
-        "lineHeight": 1.5
-      },
-      "heading": {
-        "fontFamily": "IBM Plex Serif",
-        "fontWeights": [
-          "600"
-        ],
-        "fontSize": 14,
-        "lineHeight": 1.5
-      }
-    },
-    "notes": ""
-  }
-}
+  "name": "Resume"
 }
